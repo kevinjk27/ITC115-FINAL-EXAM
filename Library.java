@@ -45,7 +45,7 @@ public abstract class Library {
 	}
 
 	public String reserved() {
-		return title + " is currently reserved!";
+		return title + " (Item #"+itemNumber + ") is currently on reserved!";
 	}
 
 	public String chekedIN() {

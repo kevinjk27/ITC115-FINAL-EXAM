@@ -2,6 +2,8 @@
 public class LibraryClient {
 
 	public static void main(String[] args) {
+	
+		
 		Books ABC = new Books();
 		Magazines DEF = new Magazines();
 		VideoDVDs HIJ = new VideoDVDs();
@@ -43,8 +45,10 @@ public class LibraryClient {
 		System.out.println(HIJ.chekedIN());
 		System.out.println("");
 		
+		System.out.println(KLM.reserved());
 		System.out.println(KLM.toString());
 		System.out.println(KLM.chekedIN());
+		
 		System.out.println("");
 
 	}
